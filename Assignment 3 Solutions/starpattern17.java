@@ -1,0 +1,2 @@
+class starpattern17
+{

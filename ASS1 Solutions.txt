@@ -1,0 +1,200 @@
+1. Algorithm to check given no. is even or odd
+
+Step 1: Start program
+Step 2: Take input of a number 
+Step 3: Check if((n%2)==1), then
+             Print n is an odd number
+Step 4: Else 
+             Print n is an even number
+Step 5: End program
+
+2. Algorithm to find factorial of given number
+
+Step 1: Start program
+Step 2: Declare Variable n, fact, i
+Step 3: Get number from user
+Step 4: Initialize Variable fact=1 and i=1
+Step 5: Repeat Until i<=number
+             fact=fact*i
+             i=i+1
+Step 6: Print fact
+Step 7: End program
+
+4. Algorithm to swap two numbers without using third variable approach.
+
+Step 1: Start program
+Step 2: Enter x, y
+Step 3: Print x, y
+Step 4: x = x + y
+Step 5: y= x - y
+Step 6: x =x - y
+Step 7: Print x, y
+Step 8: End program
+
+5. Algorithm to check the given number is positive or negative
+
+Step 1: Start program
+Step 2: Input number
+Step 3: Check number is greater than equal to 0 or not
+Step 4: if true print "positive"
+Step 5: else print "negative"
+Step 6: if it is 0 then number is 0
+Step 7: End program
+
+6. Algorithm to check whether given number is leap year or not
+
+Step 1 : Start program
+Step 2 : Input year
+Step 3 : if year % 400 = 0
+Step 4 : print "the year is a leap year"
+Step 5 : if year % 100 = 0
+Step 6 : print "the year is not a leap year" 
+Step 7 : if year % 4 = 0
+Step 8 : print "the year is a leap year" 
+Step 9 : End program
+
+7. Algorithm to print 1 To 10 without using loop
+
+Step 1: Start program
+Step 2: Input variable a=1
+Step 3: Print a
+Step 4: Increment a by 1
+             a=a+1
+Step 4: Check if the value of a is less than or equal to 10
+             if a<=10 then go back to step 2 else step 5
+Step 5: End program
+
+10. Algorithm to find sum of the digits of a given number
+Step 1: Start program
+Step 2: Input N
+Step 3: Sum = 0
+Step 4: While (N != 0)
+Step 5: Rem = N % 10
+Step 6: Sum = Sum + Rem
+Step 7: N = N / 10
+Step 8: Print Sum
+Step 9: End program
+
+11. Algorithm to find the smallest of 3 numbers (a,b,c)
+
+Step 1: Start program
+Step 2: Input three numbers in variable a, b and c
+Step 3: if a<b and a<c 
+            print “a is the smallest number"
+Step 4: if b<a and b<c 
+            print “b is the smallest number"
+Step 5: if c<a and c<b 
+            print “c is the smallest number"
+Step 6: End program
+
+14. Algorithm to find GCD of two given numbers
+
+Step 1: Start program
+Step 2: Input variable n1, n2, gcd=1, i=1
+Step 3: Input n1 and n2
+Step 4: Repeat until i<=n1 and i<=n2
+Step 5: If n1%i==0 && n2%i==0:
+Step 6: gcd = i
+Step 7: Print gcd
+Step 8: End program
+
+12. Algorithm to add two numbers without using arithmetic operators 
+
+Step 1: Start program
+Step 2 : Initialize carry = (a & b) 
+Step 3: a = a ^b
+Step 4: b = carry << 1
+Step 5: return a
+Step 6: End program
+
+13. Algorithm to print reverse of a number
+
+Step 1: Start program
+Step 2: Declare a variable n, reverse and remainder as integer
+Step 3: Read the number n
+Step 4: while n != 0
+            {
+               remainder=n%10;
+               reverse=reverse * 10 + remainder; 
+               n=n/10;
+            }
+Step 5: print reverse
+Step 6: End program
+
+15. Algorithm to LCM of two given numbers
+
+Step 1: Start program
+Step 2: Input a and b with positive integers
+Step 3: Store maximum of a & b in max
+Step 4: Check if max is divisible by a and b
+Step 5: if divisible
+            print max as LCM
+Step 6: else increase max and repeat step 3
+Step 7: End program
+
+17. Algorithm to check whether a given number is palindrome or not
+
+Step 1: Start program 
+Step 2: Input the number
+Step 3: Find the reverse of the number
+Step 4: if the reverse of the number is equal to the number
+            print "true"  
+Step 5: else
+            print "false"
+Step 6: End program
+
+19. Algorithm to print the following series EVEN number Series 2 4 6 8 10 12 14 16 .....
+
+Step 1: Start program
+Step 2: Initialize i and n
+Step 3: for(i=2; i<=n; i++2)
+Step 4: print series
+Step 5: End program
+
+20. Algorithm to print the following series ODD number Series 1 3 5 7 9 11 13 ....
+
+Step 1: Start program
+Step 2: Initialize i and n
+Step 3: for(i=1; i<=n; i++2)
+Step 4: print series
+Step 5: End program
+
+3. Algorithm to print factorial of a number using recursion
+
+Step 1: Start program
+Step 2: Declare a variable to store a number
+Step 3: Initialize the number
+Step 4: Check whether it is possible to calculate the factorial or not
+Step 5: if the number is greater than and equal to 0
+            then call a recursive function to calculate the factorial of the entered number
+Step 6: if the number is lesser than 0 
+            print "not possible to calculate the factorial"
+Step 7: if the entered number is 0 or 1
+            then return 1
+Step 8: if the entered number is other than 0 or 1
+            then calculate the factorial by recursively calling the same method
+Step 9: print result
+Step 10: print the factorial of the entered number
+Step 11: End program
+
+16. Algorithm to print LCM of two given numbers using Prime Factors method
+
+Step 1: Start program
+Step 2: Find the prime factorization of each number
+Step 3: Write each number as a product of primes, matching primes vertically when possible
+Step 4: Bring down the primes in each column
+Step 5: Multiply the factors to get the LCM
+Step 6: End program
+
+18. Algorithm to print all the Prime Factors of the given number
+
+Step 1: Start program
+Step 2: While n is divisible by 2 
+             print 2 and divide n by 2
+Step 3:	 After step 1, n must be odd. Now start a loop from i = 3 to square root of n. 
+Step 4: if n is a prime number and is greater than 2
+             then n will not become 1 by above two steps 
+			 print n if it is greater than 2
+Step 5: End program
+
+            
